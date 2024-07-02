@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - From</title>
+    <!-- ========= import google font link =========  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-[#1E1E1E] font-Poppins flex justify-center my-12 mx-10">
+    <div class="w-[350px] bg-white rounded-lg p-3.5 md:w-[900px] md:flex">
+      <div class="md:basis-2/4">
+        <img
+          class="h-[165px] w-full object-cover rounded-lg md:w-full md:h-screen"
+          src="../assets/Login Art.png"
+          alt="login-image"
+        />
+      </div>
+      <div class="md:basis-2/4 md:flex md:items-center md:justify-center">
+        <div class="md:w-[370px]">
+          <h2
+            class="mt-4 mb-2.5 text-xl font-semibold capitalize md:text-3xl md:font-bold"
+          >
+            welcome back 👋
+          </h2>
+          <p class="text-[#716060] text-base leading-6 font-normal">
+            Today is a new day. It's your day. You shape it. Sign in to start
+            managing your projects.
+          </p>
+          <div class="mt-4">
+            <label class="block text-base font-medium mb-1">Email</label>
+            <input
+              class="w-full bg-slate-200 h-10 rounded-lg px-3 text-[15px] border-2 border-[#D4D7E3] outline-none"
+              type="email"
+              placeholder="Example@gmail.com"
+            />
+          </div>
+          <div class="mt-2">
+            <label class="block text-base font-medium mb-1">Password</label>
+            <input
+              class="w-full bg-slate-200 h-10 rounded-lg px-3 text-[15px] border-2 border-[#D4D7E3] outline-none"
+              type="text"
+              placeholder="At least 8 characters"
+            />
+            <a
+              href="#"
+              class="text-indigo-500 block text-right font-medium mt-2"
+              >Forget Password</a
+            >
+          </div>
+          <button class="w-full h-10 bg-[#162D3A] text-white rounded-lg mt-2">
+            sing in
+          </button>
+          <div class="my-6 w-full h-[1px] bg-[#D4D7E3] relative"></div>
+          <div class="flex items-center justify-between gap-4 md:flex-col">
+            <button
+              class="flex items-center justify-center basis-2/4 gap-2 bg-[#a3e9f5] rounded-lg py-2 md:w-full"
+            >
+              <img
+                class="w-[20px]"
+                src="../assets/google_300221.png"
+                alt="google-image"
+              />
+              <p class="md:flex">
+                <span class="hidden md:block md:mr-1">Sign in with</span>Google
+              </p>
+            </button>
+            <button
+              class="flex items-center justify-center gap-2 basis-2/4 text-center bg-[#a3e9f5] rounded-lg py-2 md:w-full md:flex"
+            >
+              <img
+                class="w-[20px]"
+                src="../assets/facebook_5968764.png"
+                alt="google-image"
+              />
+              <p class="md:flex">
+                <span class="hidden md:block md:mr-1">Sign in with</span
+                >Facebook
+              </p>
+            </button>
+          </div>
+          <p class="text-center mt-5">
+            Don't you have an account?
+            <a class="text-indigo-500 text-[16px] font-semibold" href="#"
+              >Sign up</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
